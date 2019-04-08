@@ -1,0 +1,33 @@
+@import 'src/styles/utils';
+
+.member-modal {
+  background: white;
+  padding: 2rem;
+  .title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .description {
+    margin-top: 0.25rem;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-top: 0;
+  .wrapper {
+    align-items: center;
+    .input {
+      margin: 0.5rem;
+      width: 15rem;
+      font-size: 1.2rem;
+    }
+
+  }
+}
+.options {
+  padding: 1rem;
+  background: $oc-gray-1;
+  text-align: right;
+}
